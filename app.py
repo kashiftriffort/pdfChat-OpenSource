@@ -11,9 +11,9 @@ from langchain.memory import ConversationBufferMemory
 from langchain.document_loaders import Docx2txtLoader
 from langchain.document_loaders import TextLoader
 
-os.environ["REPLICATE_API_TOKEN"] = "r8_QA9VSTsxRjaW04wZK9IjxZwUVfOy8JR3b1eyT"
+os.environ["REPLICATE_API_TOKEN"] = "Your Replicate API KEY"
 
-pinecone.init(api_key="5b939530-ec80-40ec-8e34-16126062dfec", environment="asia-southeast1-gcp-free")
+pinecone.init(api_key="", environment="")
 
 
 # Load and preprocess the PDF document
